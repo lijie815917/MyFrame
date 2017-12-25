@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--基本颜色块-->
+    <color name="orange">#FFBD52</color>
+    <color name="green">#4DC556</color>
+    <color name="red">#FF3C00</color>
+    <!--背景底色-->
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="pop_color_bg">#59000000</color>
+    <color name="color_AFCFAF">#AFCFAF</color>
+    <color name="color_F2F2F2">#F2F2F2</color>
+    <color name="color_BFB8AD">#50BFB8AD</color>
+
+    <color name="color_FFDFAC">#FFDFAC</color>
+    <color name="color_FFE1AF">#FFE1AF</color>
+
+    <!-- 35%黑色-->
+    <color name="color_black_a35">#59000000</color>
+    <color name="color_black_a30">#76000000</color>
+    <!--10%黄色-->
+    <color name="color_orange_a10">#30FFBD52</color>
+
+    <color name="color_4A90E2_a50">#7F4A90E2</color>
+    <color name="color_4A90E2">#4A90E2</color>
+
+    <!--辅助颜色-->
+    <color name="color_222222">#222222</color>
+    <color name="color_101010">#101010</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_BBBBBB">#BBBBBB</color>
+    <color name="color_E5E5E5">#E5E5E5</color>
+    <color name="color_EEEEEE">#EEEEEE</color>
+    <color name="color_F5F5F5">#F5F5F5</color>
+    <color name="color_D8D8D8">#F5F5F5</color>
+    <color name="color_FFAE28">#FFAE28</color>
+    <color name="color_68FFAE28">#68FFAE28</color>
+    <color name="color_31FFAE28">#31FFAE28</color>
+    <color name="color_FDFDFD">#FDFDFD</color>
+    <color name="color_FFF8ED">#FFF8ED</color>
+    <color name="color_FFF9E0">#FFF9E0</color>
+    <color name="color_FF3C00">#ff3c00</color>
+    <color name="color_FAFAFA">#FAFAFA</color>
+    <color name="color_80000000">#80000000</color>
+    <color name="color_151515">#151515</color>
+    <color name="black">#000000</color>
+
+    <color name="color_FFF3E0">#FFF3E0</color>
+
+
+    <color name="color_43A6FF_a10">#1A43A6FF</color>
+
+    <color name="color_8DC2FF">#8DC2FF</color>
+</resources>

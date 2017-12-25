@@ -1,0 +1,137 @@
+ext {
+    //Android
+    androidBuildToolsVersion = "25.0.2"
+    androidMinSdkVersion = 19
+    androidTargetSdkVersion = 23
+    androidCompileSdkVersion = 25
+
+
+    androidApplicationId = 'com.ccw163.customer'
+    androidVersionCode = 1
+    androidVersionName = "1.0.0"
+    testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
+    testApplicationId = "com.fernandocejas.android10.sample.presentation.test"
+
+    support_design_verison = "25.3.0"
+    support_v7_Version = "25.3.0"
+    recyclerview_v7_Version = "25.3.0"
+    support_v13_Version = "25.3.0"
+    constraint_layout_version = "1.0.2"
+    butterknife_version = "8.8.1"
+    dagger_version = "2.11"
+    fresco_version = "1.5.0"
+    okhttp3_version = "3.8.1"
+    retrofit2_version = "2.3.0"
+    retrofit_mock_version = "2.3.0"
+    moshi_version = "1.5.0"
+    converter_moshi_version = "2.3.0"
+    adapter_rxjava2_version = "2.3.0"
+    rx_preferences_version = "2.0.0-RC3"
+    rxandroid_version = "2.0.1"
+    rxjava2_version = "2.1.2"
+    multidex_version = "1.0.1"
+    analytics_version = "latest.integration"
+    ptr_version = "1.0.11"
+    banner_version = "1.4.9"
+    flow_layout_version = '1.0.0'
+    autofittextview_version = '0.2.1'
+    brvah_version = "2.9.28"
+    amap_map3d_version = "5.4.0"
+    amap_location_version = "3.5.0"
+    amap_search_version = "5.3.1"
+    BasePopup_version = "1.8.4"
+    flyco_tab_layout_version = "2.1.2"
+    shadow_layout_version = '1.0.3'
+    Android_PickerView_version = '3.2.6'
+    wechat_sdk_version = "+"
+    jcore_version = "1.1.7"
+    jpush_version = "3.0.9"
+    rxpermissions_version = "0.9.4"
+    gson_version = "2.2.4"
+    green_dao_version = "3.2.2"
+    crashreport_version = "latest.release"
+    greenDao_update_version = "v2.0.0";
+    ali_oss_version = "2.4.4"
+
+    //androidTest
+
+    //Test
+    junit_version = "4.12"
+    mockito_version = "2.+"
+    robolectric_version = "3.5.1"
+    //powerMock
+    power_mock_version = "1.6.4"
+    assertj_core_vsersion = "1.7.0"
+
+
+    appDependencies = [
+            support_v7          : "com.android.support:appcompat-v7:${support_v7_Version}",
+            support_v13         : "com.android.support:support-v13:${support_v13_Version}",
+            support_design      : "com.android.support:design:${support_design_verison}",
+            constraint_layout   : "com.android.support.constraint:constraint-layout:${constraint_layout_version}",
+            butterknife         : "com.jakewharton:butterknife:${butterknife_version}",
+            butterknife_compiler: "com.jakewharton:butterknife-compiler:${butterknife_version}",
+            dagger              : "com.google.dagger:dagger:${dagger_version}",
+            dagger_compiler     : "com.google.dagger:dagger-compiler:${dagger_version}",
+            fresco              : "com.facebook.fresco:fresco:${fresco_version}",
+            okHttp3             : "com.squareup.okhttp3:okhttp:${okhttp3_version}",
+            logging_interceptor : "com.squareup.okhttp3:logging-interceptor:${okhttp3_version}",
+            retrofit2           : "com.squareup.retrofit2:retrofit:${retrofit2_version}",
+            moshi               : "com.squareup.moshi:moshi:${moshi_version}",
+            converter_moshi     : "com.squareup.retrofit2:converter-moshi:${converter_moshi_version}",
+            adapter_rxjava2     : "com.squareup.retrofit2:adapter-rxjava2:${adapter_rxjava2_version}",
+            rx_preferences2     : "com.f2prateek.rx.preferences2:rx-preferences:${rx_preferences_version}",
+            rxandroid           : "io.reactivex.rxjava2:rxandroid:${rxandroid_version}",
+            rxjava              : "io.reactivex.rxjava2:rxjava:${rxjava2_version}",
+            multidex            : "com.android.support:multidex:${multidex_version}",
+            analytics           : "com.umeng.analytics:analytics:${analytics_version}",
+            ptr                 : "in.srain.cube:ultra-ptr:${ptr_version}",
+            banner              : "com.youth.banner:banner:${banner_version}",
+            recyclerview_v7     : "com.android.support:recyclerview-v7:${recyclerview_v7_Version}",
+            flow_layout         : "com.nex3z:flow-layout:${flow_layout_version}",
+            autofittextview     : "me.grantland:autofittextview:${autofittextview_version}",
+            recyclerview_helper : "com.github.CymChad:BaseRecyclerViewAdapterHelper:${brvah_version}",
+            amap_map3d          : "com.amap.api:3dmap:${amap_map3d_version}",
+            amap_location       : "com.amap.api:location:${amap_location_version}",
+            amap_search         : "com.amap.api:search:${amap_search_version}",
+            BasePopup           : "com.github.razerdp:BasePopup:${BasePopup_version}",
+            flyco_tab_layout    : "com.flyco.tablayout:FlycoTabLayout_Lib:${flyco_tab_layout_version}@aar",
+            shadow_layout       : "com.github.dmytrodanylyk.shadow-layout:library:${shadow_layout_version}",
+            Android_PickerView  : "com.contrarywind:Android-PickerView:${Android_PickerView_version}",
+            jcore               : "cn.jiguang.sdk:jcore:${jcore_version}",
+            jpush               : "cn.jiguang.sdk:jpush:${jpush_version}",
+            rxpermissions       : "com.tbruyelle.rxpermissions2:rxpermissions:${rxpermissions_version}@aar",
+            wechat_sdk          : "com.tencent.mm.opensdk:wechat-sdk-android-with-mta:${wechat_sdk_version}",
+            gson                : "com.google.code.gson:gson:${gson_version}",
+            green_dao           : "org.greenrobot:greendao:${green_dao_version}",
+            crashreport         : "com.tencent.bugly:crashreport:${crashreport_version}",
+            nativecrashreport   : "com.tencent.bugly:nativecrashreport:${crashreport_version}",
+            GreenDaoUpgrade     : "com.github.yuweiguocn:GreenDaoUpgradeHelper:${greenDao_update_version}",
+            nativecrashreport   : "com.tencent.bugly:nativecrashreport:${crashreport_version}",
+            ali_oss             : "com.aliyun.dpa:oss-android-sdk:${ali_oss_version}"
+
+    ]
+    appDebugDependencies = [
+            retrofit_mock: "com.squareup.retrofit2:retrofit-mock:${retrofit_mock_version}"
+    ]
+
+
+    appTestDependencies = [
+            junit            : "junit:junit:${junit_version}",
+            mockito_core     : "org.mockito:mockito-core:${mockito_version}",
+            robolectric      : "org.robolectric:robolectric:${robolectric_version}",
+            powermock_junit4 : "org.powermock:powermock-module-junit4:${power_mock_version}",
+            powermock_rule   : "org.powermock:powermock-module-junit4-rule:${power_mock_version}",
+            powermock_mockito: "org.powermock:powermock-api-mockito:${power_mock_version}",
+            powermock_xstream: "org.powermock:powermock-classloading-xstream:${power_mock_version}",
+            assertj_core     :"org.assertj:assertj-core:${assertj_core_vsersion}"
+    ]
+
+
+
+
+
+    gitSha = 'git rev-parse --short HEAD'.execute([], project.rootDir).text.trim()//获取git代码库版本号
+    buildTime = new Date().format("yyyy-MM-dd'T'HH:mm:ss'Z'", TimeZone.getTimeZone("UTC"))
+
+}

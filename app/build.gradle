@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
+apply plugin: 'me.tatarka.retrolambda'
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+    defaultConfig {
+        applicationId "com.lwtech.customer"
+        minSdkVersion 14
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile appDependencies.butterknife
+    annotationProcessor appDependencies.butterknife_compiler
+    compile appDependencies.dagger
+    annotationProcessor appDependencies.dagger_compiler
+    compile appDependencies.fresco
+    compile appDependencies.okHttp3
+    compile appDependencies.retrofit2
+    compile appDependencies.moshi
+    compile appDependencies.converter_moshi
+    compile appDependencies.adapter_rxjava2
+    compile appDependencies.rx_preferences2
+    compile appDependencies.rxandroid
+    compile appDependencies.rxjava
+    compile appDependencies.multidex
+    compile appDependencies.logging_interceptor
+
+    debugCompile appDebugDependencies.retrofit_mock
+
+}
